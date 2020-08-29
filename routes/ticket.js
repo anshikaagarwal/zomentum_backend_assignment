@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { find } = require("../models/zomentum_users");
 
 const user_model = mongoose.model("zomentum_users");
 const ticket_model = mongoose.model("zomentum_movie_tickets");
