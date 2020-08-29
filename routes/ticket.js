@@ -7,7 +7,7 @@ const ticket_model = mongoose.model("zomentum_movie_tickets");
 const CheckTicketCount = async (time) => {
   const res = await ticket_model.find({ time });
   console.log(res, time, res.length);
-  if (res.length >= 5) return false;
+  if (res.length >= 20) return false;
   else return true;
 }
 
@@ -170,7 +170,7 @@ const Delete_Expired_Tickets = async () => {
     let hours = ((currentDate.getTime() - ticketDate.getTime()) / 1000 / 3600) % 24;
     console.log("hrs:", hours);
 
-    if (hours >= 6) {
+    if (hours >= 8) {
       await ticket_model.findByIdAndDelete(ticket._id);
     }
   })
