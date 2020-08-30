@@ -1,7 +1,8 @@
 # zomentum_backend
 ## Movie theatre ticket booking system in nodejs and mongodb
-### Endpoints in the api
 **Here is the link to screenshots: https://drive.google.com/file/d/1_XCWPYlacqtE_DzR9uz8zKJWTttAIz8v/view?usp=sharing**
+
+### Endpoints in the api
 * **/api/add_user/**: An endpoint to add a user
   * username: Name of a user
   * phone: Contact number of a user
