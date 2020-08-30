@@ -1,5 +1,5 @@
 # zomentum_backend
-## Movie theatre ticket booking system in nodejs and mongodb
+## REST interface for a movie theatre ticket booking system in Nodejs and Mongodb
 **Here is the link to screenshots: https://drive.google.com/file/d/1_XCWPYlacqtE_DzR9uz8zKJWTttAIz8v/view?usp=sharing**
 
 ### Endpoints in the api
